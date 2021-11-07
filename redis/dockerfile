@@ -1,0 +1,8 @@
+FROM redis
+
+ENV TZ=Europe/Istanbul
+
+
+#docker build -t redis .
+#docker tag redis ayrilmaz/redis
+#docker push ayrilmaz/redis

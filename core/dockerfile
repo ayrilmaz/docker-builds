@@ -1,0 +1,10 @@
+FROM mcr.microsoft.com/dotnet/sdk
+
+ENV TZ=Europe/Istanbul
+
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install xvfb libfontconfig wkhtmltopdf -y
+
+#docker build -t core5 .
+#docker tag core5 ayrilmaz/core5
+#docker push ayrilmaz/core5

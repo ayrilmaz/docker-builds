@@ -1,0 +1,10 @@
+FROM postgres:14
+
+RUN localedef -i tr_TR -c -f UTF-8 -A /usr/share/locale/locale.alias tr_TR.UTF-8
+ENV LANG tr_TR.UTF-8
+ENV TZ=Europe/Istanbul
+
+#docker build -t postgre14 .
+#docker run --name postr -d -p 5432:5432 -e POSTGRES_PASSWORD=123456 postgres:tr
+#docker tag postgre14 ayrilmaz/postgre14
+#docker push ayrilmaz/postgre14

@@ -1,0 +1,8 @@
+FROM store/minio/minio
+
+ENV TZ=Europe/Istanbul
+
+
+#docker build -t minio .
+#docker tag minio ayrilmaz/minio
+#docker push ayrilmaz/minio

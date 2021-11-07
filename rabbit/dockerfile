@@ -1,0 +1,8 @@
+FROM rabbitmq:3.8-management
+
+ENV TZ=Europe/Istanbul
+
+
+#docker build -t rabbitmq3m .
+#docker tag rabbitmq3m ayrilmaz/rabbitmq3m
+#docker push ayrilmaz/rabbitmq3m

@@ -1,0 +1,8 @@
+FROM mongo:5
+
+ENV TZ=Europe/Istanbul
+
+
+#docker build -t mongo5 .
+#docker tag mongo5 ayrilmaz/mongo5
+#docker push ayrilmaz/mongo5

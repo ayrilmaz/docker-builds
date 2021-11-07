@@ -1,0 +1,8 @@
+FROM nginx
+
+ENV TZ=Europe/Istanbul
+
+
+#docker build -t nginx .
+#docker tag nginx ayrilmaz/nginx
+#docker push ayrilmaz/nginx
