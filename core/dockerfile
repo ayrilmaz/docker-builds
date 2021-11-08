@@ -4,7 +4,8 @@ ENV TZ=Europe/Istanbul
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install xvfb libfontconfig wkhtmltopdf -y
+RUN apt-get install libgdiplus -y
 
-#docker build -t core5 .
-#docker tag core5 ayrilmaz/core5
-#docker push ayrilmaz/core5
+#docker build -t core6 .
+#docker tag core6 ayrilmaz/core6
+#docker push ayrilmaz/core6
