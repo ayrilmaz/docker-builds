@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  pgadmin:
+    container_name: pgadmin4
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: 'user@admin.com'
+      PGADMIN_DEFAULT_PASSWORD: '123456'
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+    ports:
+      - 1800:80
+
+volumes:
+    pgadmin:
+
+#docker-compose up -d
