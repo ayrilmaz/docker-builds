@@ -1,4 +1,4 @@
-FROM store/minio/minio
+FROM minio/minio
 
 ENV TZ=Europe/Istanbul
 
